@@ -1,22 +1,25 @@
-body{
+body {
     font-family: 'Merriweather', serif;
     font-family: 'Open Sans', sans-serif;
 }
-.mar{
+
+.mar {
     margin-left: 140px;
     margin-right: 140px;
 }
-.header{
+
+.header {
     background-image: url("../images/Banner\ Image.png");
     border-radius: 16px;
-    background:  #020104 0%, rgba(7, 2, 17, 0.00) 100%);
+    background: #020104 0%, rgba(7, 2, 17, 0.00) 100%);
     display: "block"
-    width: 1100px;
+        width: 1100px;
     height: 600px;
-    
-    margin: 50px 0px;    
+
+    margin: 50px 0px;
 }
-.new-year1{
+
+.new-year1 {
     color: #FFF;
     text-align: center;
     font-size: 32px;
@@ -24,7 +27,8 @@ body{
     padding-top: 177px;
     margin-bottom: 10px;
 }
-.new-year2{
+
+.new-year2 {
     color: #FFF;
     width: 632px;
     height: 190px;
@@ -36,8 +40,9 @@ body{
     padding: 0px 344px 177px 344px;
 
 }
+
 /* categories section style */
-.off{
+.off {
     color: #F00;
 
     text-align: center;
@@ -49,7 +54,8 @@ body{
     margin-top: 120px;
     margin-bottom: 48px;
 }
-.holiday-deals{
+
+.holiday-deals {
     color: #F00;
     text-align: center;
     font-family: Inter;
@@ -60,7 +66,8 @@ body{
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.CATE{
+
+.CATE {
     color: #070211;
     text-align: center;
     font-family: Inter;
@@ -71,7 +78,8 @@ body{
     margin-top: 5px;
     margin-bottom: 0px;
 }
-.images{
+
+.images {
     display: block;
     width: 802.9px;
     height: 500px;
@@ -81,8 +89,9 @@ body{
     margin-bottom: 0px;
     margin-top: 48px;
 }
+
 /* midnight party style */
-.background{
+.background {
     background-image: url(../images/Vectorrr.png);
     background-repeat: no-repeat;
     display: block;
@@ -92,18 +101,20 @@ body{
     flex-shrink: 0;
     margin-top: 120px;
 }
-.party{
+
+.party {
     color: #FFF;
     font-size: 64px;
     font-weight: 900;
-    line-height: 88px; 
+    line-height: 88px;
     letter-spacing: 7.04px;
     width: 642px;
     height: 176px;
     padding: 126px 552px 24px 126px;
     margin-bottom: 0px;
 }
-.paragraph{
+
+.paragraph {
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
     font-size: 18px;
@@ -116,7 +127,8 @@ body{
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.join{
+
+.join {
     color: #4b4646;
     text-align: center;
     font-family: Inter;
@@ -125,9 +137,10 @@ body{
     font-weight: 700;
     line-height: normal;
     margin: 48px 1059px 142px 158px;
-    width: 103px;   
+    width: 103px;
 }
-.place-time{
+
+.place-time {
     color: #070211;
     font-family: Inter;
     font-size: 32px;
@@ -138,20 +151,23 @@ body{
     padding: 100px 385px 48px 385px;
     width: 550px;
 }
-.red{
+
+.red {
     color: #F00;
     text-align: center;
     font-family: Inter;
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
-    line-height: 56px; 
+    line-height: 56px;
 }
-.back{
+
+.back {
     background-color: beige;
     margin: 120px 0px;
 }
-.button2{
+
+.button2 {
     border-radius: 8px;
     background: #F00;
     border: 0px;
@@ -163,17 +179,19 @@ body{
     margin: 48px 577px 110px 577px;
     /* Holiday sales 50% section design*/
 }
-.WHAT{
+
+.WHAT {
     color: #070211;
     text-align: center;
     font-family: Inter;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    line-height: normal; 
-    margin-bottom: 0px; 
+    line-height: normal;
+    margin-bottom: 0px;
 }
-.Holiday{
+
+.Holiday {
     color: #070211;
     font-size: 72px;
     font-weight: 900;
@@ -181,10 +199,12 @@ body{
     margin-top: 10px;
     margin-bottom: 0px;
 }
-.display{
+
+.display {
     color: #F00;
 }
-.paragraph2{
+
+.paragraph2 {
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
     font-family: Inter;
@@ -194,42 +214,51 @@ body{
     line-height: 32px;
     margin-top: 28px;
 }
-.girl{
+
+.girl {
     border-radius: 16px 16px 0px 0px;
     background: lightgray -59.98px 0px / 151.553% 100% no-repeat;
     float: right;
 }
-.marge{
+
+.marge {
     position: relative;
 }
-.discount{
+
+.discount {
     position: absolute;
     height: 206px;
     width: 206px;
     /* right: 10px; */
     top: 30px;
 }
-.image-container{
+
+.image-container {
     margin-top: 48px;
     transition: 1s;
 
 }
-.row{
+
+.row {
     display: flex;
 }
-.column{
-    
+
+.column {
+
     height: 450px;
-    margin: 12px; 
+    margin: 12px;
 }
-.column:hover{
+
+.column:hover {
     transform: scale(1.3);
     z-index: 2;
 }
-.left{
+
+.left {
     margin-left: 0px;
 }
-.best{
+
+.best {
     color: #F00;
     font-family: Inter;
     font-size: 24px;
@@ -239,7 +268,8 @@ body{
     margin-top: 120px;
     margin-bottom: 0px;
 }
-.our{
+
+.our {
     color: #070211;
     font-size: 48px;
     font-weight: 900;
@@ -247,7 +277,8 @@ body{
     margin-top: 16px;
     margin-bottom: 0px;
 }
-.paragraph3{
+
+.paragraph3 {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
@@ -256,14 +287,16 @@ body{
     line-height: 32px;
     margin-top: 22px;
 }
-.Group-61{
+
+.Group-61 {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 120px;
     margin-bottom: 0px;
 }
-.Subscribe{
+
+.Subscribe {
     color: #070211;
     text-align: center;
     font-size: 48px;
@@ -272,7 +305,8 @@ body{
     margin-top: 40px;
     margin-bottom: 0px;
 }
-.paragraph4{
+
+.paragraph4 {
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
     font-family: Inter;
@@ -285,7 +319,7 @@ body{
     padding-left: 212px;
 }
 
-.Subscribe-container{
+.Subscribe-container {
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
     display: block;
@@ -293,18 +327,21 @@ body{
     margin-right: auto;
     height: 616px;
 }
-.footer-container{
+
+.footer-container {
     background: #070211;
     height: 609px;
     margin-top: 120px;
 }
+
 /* footer style */
-.fooret-element{
+.fooret-element {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.footer-para{
+
+.footer-para {
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
@@ -314,39 +351,37 @@ body{
     margin-left: 100px;
     margin-right: 300px;
     margin-top: 120px;
-
-
 }
-.number{
+
+.number {
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    line-height: 40px; 
+    line-height: 40px;
     margin-right: 100px;
     margin-top: 120px;
 }
-.social-icon{
+
+.social-icon {
     display: flex;
     justify-content: center;
     padding-top: 24px;
     padding-bottom: 12px;
     gap: 5px;
 }
-.last{
+
+.last {
     display: flex;
     justify-content: space-between;
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
     font-style: normal;
-font-weight: 500;
-line-height: normal;
-padding-left: 100px;
-padding-right: 100px;
-border-bottom: solid 2px white;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-bottom: solid 2px white;
 }
-
-
-
